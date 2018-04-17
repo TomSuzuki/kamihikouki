@@ -48,10 +48,10 @@ void draw() {
     case(FlgInitialize):  // 初期化
     MasterFlg = FlgStart;
     break;
-    case(FlgStart):       // 初期画面
+  case FlgStart:       // 初期画面
     MasterStart();
     break;
-    case(FlgGameInitialize):  // ゲーム初期化
+  case FlgGameInitialize:  // ゲーム初期化
     MasterFlg = FlgGame;
     GameTime = -60*3;
     PlayerX = 320;
@@ -60,7 +60,7 @@ void draw() {
     PlayerSpeed = 2.5;
     for (int i = 0; i < MaxBallNum; i++) Ball[i][0] = 0;
     break;
-    case(FlgGame):        // ゲーム
+  case FlgGame:        // ゲーム
     MasterGame();
     break;
   }
