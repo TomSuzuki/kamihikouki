@@ -18,4 +18,3 @@ STARTをクリックで開始、ゲームオーバー後はクリックでタイ
 |:---|:---|:---|:---|  
 |ver 1.00|2018/04/13|とりあえず動く状態|テストプレイ？してないよ|  
 
-https://docs.google.com/document/d/1UeSXIOmsGQ2xXLOsltrgG8YzmW0oaJGFLrL6n5vERuk/edit?usp=sharing
